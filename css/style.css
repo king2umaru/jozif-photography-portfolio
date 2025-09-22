@@ -87,13 +87,15 @@ padding-left: 60px;
   height: 200px;
 }
 .container-four{
-padding-left:100px;
-padding-top:200px;
+  position: relative;
+  top:775px;
+  left: 100px;
+
 }
 
 .container-five{
-  position: absolute;left:500px;
-  top:2320px;
+  position: relative;left:500px;
+  top:400px;
 padding-left:100px;
 padding-top: 95px;
 }
@@ -271,9 +273,13 @@ left :350px;
   margin:auto;
   position: relative;
 bottom: 950px;
-left: 1150px;
+left: 1150px;}
 
+.container-middle{
+  width: 420px;
+  height: 1200px;
 }
+
 .lifestyle{
   width: 700px;
 position: relative;
@@ -281,4 +287,24 @@ position: relative;
 height: 930.078px;
 padding-left: 70px;
 
+}
+.fashion{
+  width: 700px;
+position: relative;
+    top: 700px;
+    left: 60px;
+height: 930.078px;
+}
+
+.Fashion-heading{
+  position: relative;
+   top: 700px;
+    left: 1143px;
+}
+
+
+.Lifestyle-heading{
+  position: relative;
+   top: 760px;
+   left: 200px;
 }
