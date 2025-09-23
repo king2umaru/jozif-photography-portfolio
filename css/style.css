@@ -4,7 +4,31 @@ body{
     margin: 0px;
       text-decoration:none;
       width: 1500px;
-}
+
+        margin: 0;
+        opacity: 0;
+        animation: fadeIn 3.5s ease forwards;
+      }
+
+      @keyframes fadeIn {
+        to { opacity: 1; }
+      }
+     /* hover************************************************/
+
+
+      a:link, a:visited {
+        color: inherit;            /* normal and visited links */
+        text-decoration: none;   /* no underline */
+      }
+
+      a:hover, a:active {
+        color: black;              /* change color on hover/click */
+        text-decoration: underline; /* optional: underline only when hover */
+      }
+
+
+
+
 
 ul{
   list-style-type: none;
@@ -67,6 +91,22 @@ padding-left: 60px;
     font-size: 50px;
 }
 
+
+
+
+/************************** zoom************************************************/
+
+.zoom {
+  width: 250px;              /* starting size */
+  border-radius: 8px;        /* optional rounded corners */
+  transition: transform 0.3s ease; /* smooth animation */
+}
+
+.zoom:hover {
+  transform: scale(1.2);     /* zoom in 20% */
+}
+
+
 /****************************CONTAINERS*********************/
 .container-one{
 
@@ -94,6 +134,8 @@ padding-left: 60px;
 }
 
 .container-five{
+  height: 800px;
+  width: 700px;
   position: relative;left:500px;
   top:400px;
 padding-left:100px;
@@ -213,7 +255,8 @@ position: absolute;    left: 600px;;
 .About-two{
 padding-bottom: 30px;
 }
-.Portfolio-two{padding-bottom: 30px;}
+.Portfolio-two{padding-bottom: 30px;
+}
 .Contact-two{padding-bottom: 30px;}
 .Blog-two{padding-bottom: 30px;}
 .Learn{padding-bottom: 30px;}
@@ -297,6 +340,7 @@ height: 930.078px;
 }
 
 .Fashion-heading{
+width: 300px;
   position: relative;
    top: 700px;
     left: 1143px;
